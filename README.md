@@ -1,0 +1,2 @@
+# nvimSetup
+# nvimSetup
