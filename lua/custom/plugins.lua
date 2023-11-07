@@ -1,5 +1,9 @@
 local plugins = {
   {
+    "christoomey/vim-tmux-navigator",
+    lazy = false
+  },
+  {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
     dependencies = "mfussenegger/nvim-dap",
@@ -61,7 +65,7 @@ local plugins = {
   },
   {
     "folke/noice.nvim",
-    event = "VeryLazy",
+    lazy = false,
     opts = function ()
       return require("custom.configs.noice")
     end,
