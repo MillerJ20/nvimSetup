@@ -11,3 +11,5 @@ lspconfig.clangd.setup {
   end,
   capabilities = capabilities
 }
+
+lspconfig.vala_ls.setup{}
