@@ -13,3 +13,5 @@ lspconfig.clangd.setup {
     offsetEncoding = { "utf-16" },
   }
 }
+
+lspconfig.vala_ls.setup{}
